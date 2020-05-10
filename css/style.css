@@ -1,0 +1,160 @@
+/* Inspired by https://codepen.io/melaniejansen/pen/EWNZRO?editors=0110 */
+body {
+  background: orange;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  background: none;
+  width: 600px;
+  height: 420px;
+}
+
+.head {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  border-radius: 35%;
+  background-color: green;
+}
+
+.head-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: green;
+  border-radius: 35%;
+  z-index: 2;
+}
+
+.hair {
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  background: black;
+}
+
+.strand-1 {
+  position: absolute;
+  height: 50px;
+  width: 30px;
+  top: 90%;
+  left: 35px;
+  background: black;
+  -webkit-clip-path: polygon( 0 0, 50% 100%, 100% 0);
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+
+.strand-2 {
+  position: absolute;
+  height: 50px;
+  width: 30px;
+  top: 90%;
+  left: 47%;
+  background: black;
+  -webkit-clip-path: polygon( 0 0, 50% 100%, 100% 0);
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+
+.strand-3 {
+  position: absolute;
+  height: 50px;
+  width: 30px;
+  top: 90%;
+  left: 75%;
+  background: black;
+  -webkit-clip-path: polygon( 0 0, 50% 100%, 100% 0);
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+
+.left-eye {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 30%;
+  top: 48%;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.right-eye {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  right: 25%;
+  top: 48%;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.pupil {
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  left: 30%;
+  top: 35%;
+  border-radius: 50%;
+  background: #000;
+}
+
+.eyebrow-left {
+  position: absolute;
+  height: 10%;
+  width: 23%;
+  left: 27%;
+  top: 43%;
+  background: #000;
+}
+
+.eyebrow-right {
+  position: absolute;
+  height: 10%;
+  width: 23%;
+  right: 23%;
+  top: 43%;
+  background: #000;
+}
+
+.mouth {
+  position: absolute;
+  height: 17px;
+  width: 57px;
+  left: 43%;
+  top: 220px;
+  border-radius: 20%;
+  background: #000;
+}
+
+.screw-left {
+  position: absolute;
+  height: 18px;
+  width: 25px;
+  left: -25px;
+  top: 50px;
+  background: silver;
+}
+
+.screw-right {
+  position: absolute;
+  height: 18px;
+  width: 25px;
+  right: -25px;
+  top: 50px;
+  background: silver;
+}
+
+.bolt {
+  position: absolute;
+  height: 26px;
+  width: 14px;
+  top: -4px;
+  background: silver;
+}
